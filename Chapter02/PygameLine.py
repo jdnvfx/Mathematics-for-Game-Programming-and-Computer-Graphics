@@ -4,9 +4,9 @@ from pygame.locals import *
 pygame.init()
 
 screen_width = 1000
-screen_heigth = 800
+screen_height = 800
 
-screen = pygame.display.set_mode((screen_width, screen_heigth))
+screen = pygame.display.set_mode((screen_width, screen_height))
 
 done = False
 white = pygame.Color(255, 255, 255)
